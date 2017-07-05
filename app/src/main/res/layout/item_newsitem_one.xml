@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/iv_newsitem_img"
+        android:background="#000"
+        android:src="@drawable/item"
+        android:scaleType="fitXY"
+        android:padding="1dp"
+        android:layout_height="70dp" />
+    <TextView
+        android:layout_toRightOf="@+id/iv_newsitem_img"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_newsitem_title"
+        android:textColor="#000"
+        android:layout_marginLeft="5dp"
+        android:text="网上大讲堂第868期预告:义务环保人人有责网上大讲堂第868期预告:义务环保人人有责网上大讲堂第868期预告:义务环保人人有责"
+        android:lines="2"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tv_newsitem_title"
+        android:text="2014-10-1113:18"
+        android:layout_alignLeft="@id/tv_newsitem_title"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_newsitem_time"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

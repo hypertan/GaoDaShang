@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="200dp">
+
+    <itheima.com.view.TopImageViewPager
+        android:id="@+id/vp_newsitem_topimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#66000000">
+
+        <TextView
+            android:id="@+id/tv_topimage_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="图片标题"
+            android:textColor="#fff"
+            android:textSize="15sp"/>
+
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/cpi_indicator"
+            app:fillColor="#f00"
+            app:pageColor="#fff"
+            app:radius="3dp"
+            app:strokeWidth="0dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"/>
+    </RelativeLayout>
+</RelativeLayout>

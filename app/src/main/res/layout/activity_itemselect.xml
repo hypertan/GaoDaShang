@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <itheima.com.view.MyGridLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/mygridlayout1"
+        android:columnCount="4"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="点击选择频道"
+        android:textColor="#000" />
+
+    <itheima.com.view.MyGridLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/mygridlayout2"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="4"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>
